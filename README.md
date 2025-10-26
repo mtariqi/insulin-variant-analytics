@@ -42,6 +42,7 @@ python scripts/demonstrate_success.py
 📁 Project Structure
 
 
+bash
 ```
 insulin-variant-analytics/
 ├── models/
@@ -64,7 +65,6 @@ insulin-variant-analytics/
 ├── dbt_project.yml              # DBT configuration
 ├── insulin_variants.duckdb      # Generated database
 └── requirements.txt             # Python dependencies
-
 ```
 
 
