@@ -22,7 +22,7 @@ This project implements a complete genomic data engineering pipeline for insulin
 ## 🚀 Quick Start
 
 ### Install Dependencies
-```bash
+
 pip install dbt-core dbt-duckdb duckdb pandas numpy
 
 
