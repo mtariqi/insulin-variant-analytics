@@ -1,0 +1,23 @@
+name: 'insulin_variant_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'insulin_variant_analytics'
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["data"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  insulin_variant_analytics:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
