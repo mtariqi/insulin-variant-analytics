@@ -26,7 +26,7 @@ This project demonstrates a complete data engineering pipeline for genomic data 
 
 ## 🚀 Quick Start
 
-```bash
+
 # Install dependencies
 pip install dbt-core dbt-duckdb duckdb pandas numpy
 
@@ -40,20 +40,26 @@ dbt run
 python scripts/demonstrate_success.py
 
 📁 Project Structure
-bash
+
 
 ```
 insulin-variant-analytics/
 ├── models/
-│   ├── staging/          # Raw data models
+│   ├── staging/           # Raw data models
+│   │   ├── schema.yml
+│   │   └── stg_variants.sql
 │   └── marts/            # Analytical models
+│       ├── schema.yml
+│       └── mart_insulin_analysis.sql
 ├── scripts/
 │   ├── generate_mock_data.py
 │   └── demonstrate_success.py
-├── data/raw/             # Source CSV files
+├── data/
+│   └── raw/              # Source CSV files
 ├── analysis/             # Analytical queries
 ├── dbt_project.yml       # DBT configuration
-└── insulin_variants.duckdb # Generated database
+├── insulin_variants.duckdb # Generated database
+└── requirements.txt      # Python dependencies
 
 ```
 
