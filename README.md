@@ -25,7 +25,7 @@ This project demonstrates a complete data engineering pipeline for genomic data 
 - ✅ **Variant Quality Analysis** with categorization
 
 ## 🚀 Quick Start
-``` bash 
+
 
 # Install dependencies
 pip install dbt-core dbt-duckdb duckdb pandas numpy
