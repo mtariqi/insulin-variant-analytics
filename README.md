@@ -1,6 +1,6 @@
 # Insulin Gene Variant Analytics
 
-A modern bioinformatics pipeline for analyzing insulin gene variants using DBT, DuckDB, and Python.
+A modern bioinformatics pipeline for analyzing insulin gene variants using DBT, DuckDB, and Python. This stack brings modern data engineering practices to bioinformatics, enabling reproducible, scalable variant analysis compared to traditional one-off scripts.
 
 ## 🧬 Project Overview
 
