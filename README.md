@@ -101,9 +101,12 @@ variant_analysis - Aggregated variant metrics
 
 variant_quality_analysis - Quality categorization
 
-Author: Your Name
-Location: Your Location
+Author: Md Tariqul Islam
+
+Location: Toronto, Canada
+
 GitHub: @mtariqi
+
 Email: tariqul@scired.com
 
 📄 License
