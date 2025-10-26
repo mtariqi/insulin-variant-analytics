@@ -40,6 +40,7 @@ dbt run
 python scripts/demonstrate_success.py
 
 📁 Project Structure
+bash
 
 ```
 insulin-variant-analytics/
@@ -53,6 +54,7 @@ insulin-variant-analytics/
 ├── analysis/             # Analytical queries
 ├── dbt_project.yml       # DBT configuration
 └── insulin_variants.duckdb # Generated database
+
 ```
 
 
